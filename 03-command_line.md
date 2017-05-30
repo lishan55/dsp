@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > "cd" change directory by going into folder  
+"ls" list out files in directory  
+"pwd" shows current full directory  
+"touch" creates file  
+"rmdir" removes directory  
+"cp" copies file  
+"mv" move file  
+"cat" stream file  
+"find" find file  
+"env" enviornment  
 
 ---
 
@@ -34,7 +43,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > "ls" short lists all the files in the directory  
+"ls -a" short listing includes hidden files (all files)  
+"ls -l" long listing of files  
+"ls -lh" long listing with readable file sizes  
+"ls -lah" long listing with hidden file with newest file on top  
+"ls -Glp" no group in long listing with indicator to directories (shown by /)  
 
 ---
 
@@ -42,7 +56,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > -lah  
+-c  
+-F  
+-p  
+-t  
 
 ---
 
@@ -50,7 +68,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > "xargs" reads items from standard input and executes the commpand one or more times with any arguments followed by items read from the input with blank lines ignored.  
 
- 
+For example,  
+
+echo 1 2 3 4 5 6| xargs -n 3  
+returns the numbers 1 to 6 in two lines of 3 numbers.
 
